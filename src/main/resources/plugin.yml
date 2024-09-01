@@ -1,0 +1,12 @@
+name: SafeZone
+version: '${version}'
+main: me.rtx4090.safezone.SafeZone
+api-version: '1.21'
+load: STARTUP
+
+commands:
+  safezone:
+    description: "Define monster free areas in your server."
+    usage: "/safezone <add|remove|list>"
+    aliases: []
+    permission-message: ""
